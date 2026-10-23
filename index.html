@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Postdoc Positions in Physical AI | IBRS, TUM MIRMI</title>
+  <meta name="description" content="Multiple postdoctoral positions (TV-L E13) in Physical AI at the TUM RoboGym powered by NEURA, in the Intelligent Bio-Robotic Systems group at TUM MIRMI, Munich.">
+  <meta property="og:title" content="We are hiring: multiple postdoc positions in Physical AI at TUM">
+  <meta property="og:description" content="Join the Intelligent Bio-Robotic Systems group at TUM MIRMI and lead your own research line in the TUM RoboGym powered by NEURA.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://img.youtube.com/vi/kydEYc0rk9Q/maxresdefault.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "JobPosting",
+    "title": "Postdoctoral Researcher in Physical AI (TV-L E13)",
+    "description": "<p>The Intelligent Bio-Robotic Systems group at TUM MIRMI, led by Prof. Lorenzo Masia, is hiring multiple postdoctoral researchers with a PhD in Robotics, AI or a related field to lead original research lines within the TUM RoboGym powered by NEURA, Europe's largest scientific training center for Physical AI. Topics: learning from human demonstration, robot foundation models, dexterous manipulation and humanoid control, reinforcement learning and sim-to-real, safe Physical AI for human-robot interaction.</p>",
+    "datePosted": "2026-10-23",
+    "employmentType": "FULL_TIME",
+    "hiringOrganization": {
+      "@type": "Organization",
+      "name": "Technical University of Munich (TUM) – Munich Institute of Robotics and Machine Intelligence (MIRMI)",
+      "sameAs": "https://www.mirmi.tum.de/"
+    },
+    "jobLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Munich",
+        "addressRegion": "Bavaria",
+        "addressCountry": "DE"
+      }
+    },
+    "educationRequirements": {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "PhD in Robotics, AI or a related field"
+    }
+  }
+  </script>
+
+  <style>
+    :root {
+      --tum-blue: #0065BD;
+      --tum-blue-dark: #005293;
+      --tum-blue-deep: #003359;
+      --accent: #E37222;
+      --bg: #ffffff;
+      --bg-soft: #f3f6fa;
+      --text: #1b2430;
+      --text-muted: #546070;
+      --border: #dde4ec;
+      --card: #ffffff;
+      --radius: 14px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1520;
+        --bg-soft: #131e2c;
+        --text: #e6edf5;
+        --text-muted: #9aa8b8;
+        --border: #24324a;
+        --card: #16233a;
+        --tum-blue: #4a9ae0;
+      }
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      font-size: 17px;
+    }
+    a { color: var(--tum-blue); }
+    .wrap { max-width: 1040px; margin: 0 auto; padding: 0 20px; }
+
+    /* Top bar */
+    .topbar {
+      background: var(--tum-blue-deep);
+      color: #cfe0f2;
+      font-size: 14px;
+    }
+    .topbar .wrap {
+      display: flex; justify-content: space-between; align-items: center;
+      gap: 12px; padding-top: 10px; padding-bottom: 10px; flex-wrap: wrap;
+    }
+    .topbar a { color: #fff; text-decoration: none; font-weight: 600; }
+
+    /* Hero */
+    .hero {
+      background:
+        radial-gradient(circle at 85% 20%, rgba(255,255,255,0.12), transparent 45%),
+        linear-gradient(135deg, var(--tum-blue-dark) 0%, var(--tum-blue-deep) 100%);
+      color: #fff;
+      padding: 72px 0 84px;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.14);
+      border: 1px solid rgba(255,255,255,0.28);
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .hero h1 {
+      font-size: clamp(32px, 5.5vw, 54px);
+      line-height: 1.1;
+      margin: 20px 0 18px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    .hero h1 span { color: #9fd0ff; }
+    .hero p.lead {
+      font-size: clamp(17px, 2.2vw, 20px);
+      max-width: 720px;
+      color: #dce9f6;
+      margin: 0 0 32px;
+    }
+    .cta-row { display: flex; gap: 14px; flex-wrap: wrap; }
+    .btn {
+      display: inline-block;
+      padding: 14px 26px;
+      border-radius: 10px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: transform .15s ease, box-shadow .15s ease;
+    }
+    .btn:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
+    .btn-primary { background: #fff; color: var(--tum-blue-deep); }
+    .btn-ghost { border: 2px solid rgba(255,255,255,0.6); color: #fff; background: transparent; font: inherit; font-weight: 700; cursor: pointer; }
+    .mail-hint { margin: 14px 0 0; color: #cfe0f2; font-size: 14px; }
+
+    /* Facts strip */
+    .facts {
+      margin-top: -44px;
+      position: relative;
+    }
+    .facts-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: 0 12px 32px rgba(0, 40, 80, 0.10);
+      overflow: hidden;
+    }
+    .fact { padding: 22px 22px; border-right: 1px solid var(--border); }
+    .fact:last-child { border-right: 0; }
+    .fact .label {
+      font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em;
+      color: var(--text-muted); font-weight: 600;
+    }
+    .fact .value { font-weight: 700; font-size: 17px; margin-top: 4px; }
+    .fact .value.deadline { color: var(--accent); }
+
+    /* Sections */
+    section { padding: 64px 0 8px; }
+    h2 {
+      font-size: clamp(26px, 3.5vw, 34px);
+      margin: 0 0 18px;
+      letter-spacing: -0.01em;
+    }
+    h2 .kicker {
+      display: block; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--tum-blue); font-weight: 700; margin-bottom: 6px;
+    }
+    .two-col { display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px; align-items: center; }
+
+    .video {
+      position: relative; padding-top: 56.25%;
+      border-radius: var(--radius); overflow: hidden;
+      box-shadow: 0 10px 28px rgba(0, 40, 80, 0.18);
+      background: #000;
+    }
+    .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+    /* Topic cards */
+    .topics {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 18px;
+      margin-top: 28px;
+    }
+    .topic {
+      background: var(--bg-soft);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      transition: border-color .15s ease, transform .15s ease;
+    }
+    .topic:hover { border-color: var(--tum-blue); transform: translateY(-3px); }
+    .topic .icon {
+      width: 44px; height: 44px; border-radius: 10px;
+      background: var(--tum-blue); color: #fff;
+      display: grid; place-items: center; margin-bottom: 14px;
+    }
+    .topic .icon svg { width: 24px; height: 24px; }
+    .topic h3 { margin: 0 0 6px; font-size: 18px; }
+    .topic p { margin: 0; color: var(--text-muted); font-size: 15px; }
+
+    /* Lists */
+    .checklist { list-style: none; padding: 0; margin: 0; }
+    .checklist li {
+      position: relative; padding: 14px 0 14px 40px;
+      border-bottom: 1px solid var(--border);
+    }
+    .checklist li:last-child { border-bottom: 0; }
+    .checklist li::before {
+      content: ""; position: absolute; left: 0; top: 16px;
+      width: 24px; height: 24px; border-radius: 50%;
+      background: var(--tum-blue)
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E")
+        center / 14px no-repeat;
+    }
+
+    .panel {
+      background: var(--bg-soft);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 30px;
+    }
+
+    /* Apply */
+    .apply {
+      background: linear-gradient(135deg, var(--tum-blue-dark), var(--tum-blue-deep));
+      color: #fff;
+      border-radius: 20px;
+      padding: 48px 44px;
+      margin-top: 24px;
+    }
+    .apply h2 { color: #fff; }
+    .apply h2 .kicker { color: #9fd0ff; }
+    .steps {
+      counter-reset: step;
+      list-style: none; padding: 0; margin: 24px 0;
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;
+    }
+    .steps li {
+      counter-increment: step;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .steps li::before {
+      content: counter(step);
+      display: grid; place-items: center;
+      width: 34px; height: 34px; border-radius: 50%;
+      background: #fff; color: var(--tum-blue-deep);
+      font-weight: 800; margin-bottom: 10px;
+    }
+    .steps strong { display: block; font-size: 17px; }
+    .steps span { color: #cfe0f2; font-size: 15px; }
+    .warning {
+      background: rgba(227, 114, 34, 0.18);
+      border-left: 4px solid var(--accent);
+      padding: 14px 18px; border-radius: 8px;
+      margin: 0 0 18px;
+    }
+    .zip-note {
+      background: rgba(255,255,255,0.08);
+      border: 1px dashed rgba(255,255,255,0.45);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin: 0 0 18px;
+    }
+    .zip-note span { display: block; color: #cfe0f2; font-size: 15px; margin-top: 4px; }
+    .zip-note code, .steps code {
+      background: rgba(255,255,255,0.16);
+      padding: 2px 7px; border-radius: 6px;
+      font-family: ui-monospace, Consolas, monospace; font-size: 0.95em;
+    }
+    .email {
+      font-size: clamp(18px, 3vw, 24px);
+      font-weight: 800;
+      color: #fff;
+      word-break: break-all;
+    }
+
+    /* Links */
+    .links { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 20px; }
+    .link-card {
+      display: block; text-decoration: none; color: inherit;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 20px 22px;
+      transition: border-color .15s ease;
+    }
+    .link-card:hover { border-color: var(--tum-blue); }
+    .link-card .src { font-size: 12px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--tum-blue); font-weight: 700; }
+    .link-card .ttl { font-weight: 600; margin-top: 4px; }
+
+    footer {
+      margin-top: 72px; padding: 32px 0;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted); font-size: 14px;
+    }
+    footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+
+    @media (max-width: 820px) {
+      .facts-grid { grid-template-columns: 1fr 1fr; }
+      .fact:nth-child(2) { border-right: 0; }
+      .fact:nth-child(-n+2) { border-bottom: 1px solid var(--border); }
+      .two-col { grid-template-columns: 1fr; }
+      .steps { grid-template-columns: 1fr; }
+      .apply { padding: 36px 24px; }
+    }
+    @media (max-width: 480px) {
+      .facts-grid { grid-template-columns: 1fr; }
+      .fact { border-right: 0; border-bottom: 1px solid var(--border); }
+      .fact:last-child { border-bottom: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="wrap">
+      <span>Intelligent Bio-Robotic Systems · TUM MIRMI</span>
+      <a href="#apply">Apply now →</a>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="wrap">
+      <span class="badge">We are hiring · Multiple positions</span>
+      <h1>Postdoc Positions in <span>Physical AI</span> at TUM</h1>
+      <p class="lead">
+        NEURA Robotics and TUM are building the <strong>TUM RoboGym powered by NEURA</strong>,
+        Europe's largest scientific training center for Physical AI, where humanoids and other
+        robots learn the skills they need for the real world. Come and lead your own research line there.
+      </p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="#apply">How to apply</a>
+        <a class="btn btn-ghost" href="#topics">Research topics</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="facts">
+    <div class="wrap">
+      <div class="facts-grid">
+        <div class="fact">
+          <div class="label">Position</div>
+          <div class="value">Postdoctoral Researcher</div>
+        </div>
+        <div class="fact">
+          <div class="label">Salary</div>
+          <div class="value">TV-L E13, Stufe 3–4</div>
+        </div>
+        <div class="fact">
+          <div class="label">Location</div>
+          <div class="value">TUM MIRMI, Munich</div>
+        </div>
+        <div class="fact">
+          <div class="label">Priority deadline</div>
+          <div class="value deadline">30 November 2026</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section id="about">
+      <div class="wrap two-col">
+        <div>
+          <h2><span class="kicker">About the positions</span>Where robots learn the real world</h2>
+          <p>
+            The <strong>Intelligent Bio-Robotic Systems (IBRS)</strong> group at the
+            <a href="https://www.mirmi.tum.de/mirmi/startseite/" target="_blank" rel="noopener">Munich Institute of Robotics and Machine Intelligence (MIRMI)</a>
+            of the Technical University of Munich, led by <strong>Prof. Lorenzo Masia</strong>,
+            is looking for researchers with a <strong>PhD in Robotics, AI or a related field</strong>.
+          </p>
+          <p>
+            We are filling <strong>multiple postdoctoral positions</strong>, paid according to the
+            German public-sector pay scale <strong>TV-L E13 (Stufe 3–4)</strong>. You will work
+            in the TUM RoboGym powered by NEURA, a center built jointly by TUM and NEURA Robotics
+            for training humanoids and other robots at scale.
+          </p>
+        </div>
+        <div class="video">
+          <iframe
+            src="https://www.youtube.com/embed/kydEYc0rk9Q?rel=0&amp;playsinline=1"
+            title="TUM RoboGym powered by NEURA"
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="topics">
+      <div class="wrap">
+        <h2><span class="kicker">Research topics</span>What you could work on</h2>
+        <p style="color: var(--text-muted); max-width: 720px; margin: 0;">
+          Your research statement should address one of these topics.
+        </p>
+        <div class="topics">
+          <div class="topic">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="3"/><path d="M12 8v6M8 22l4-8 4 8M6 12h12"/></svg>
+            </div>
+            <h3>Learning from human demonstration</h3>
+            <p>Turning human motion and skill into robot behaviour.</p>
+          </div>
+          <div class="topic">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9 5-9 5-9-5 9-5z"/><path d="M3 12l9 5 9-5"/><path d="M3 17l9 5 9-5"/></svg>
+            </div>
+            <h3>Robot foundation models</h3>
+            <p>Large, general models that transfer across tasks and embodiments.</p>
+          </div>
+          <div class="topic">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 11V6a2 2 0 0 0-4 0v5M14 10V4a2 2 0 0 0-4 0v6M10 10.5V6a2 2 0 0 0-4 0v8"/><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"/></svg>
+            </div>
+            <h3>Dexterous manipulation &amp; humanoid control</h3>
+            <p>Hands, whole-body control and contact-rich tasks.</p>
+          </div>
+          <div class="topic">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7"/><polyline points="21 3 21 9 15 9"/></svg>
+            </div>
+            <h3>Reinforcement learning &amp; sim-to-real</h3>
+            <p>Training in simulation and deploying on real hardware.</p>
+          </div>
+          <div class="topic">
+            <div class="icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            </div>
+            <h3>Safe Physical AI for human-robot interaction</h3>
+            <p>Robots that work safely with and around people.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="profile">
+      <div class="wrap two-col" style="align-items: start;">
+        <div>
+          <h2><span class="kicker">Your profile</span>We are looking for candidates who can</h2>
+          <ul class="checklist">
+            <li><strong>Lead an original research line</strong> within the TUM RoboGym</li>
+            <li><strong>Coordinate and write research projects</strong> in robotics and AI</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3 style="margin-top: 0;">Requirements</h3>
+          <ul class="checklist">
+            <li>PhD in Robotics, AI or a related field</li>
+            <li>A research vision on one of the listed topics</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="apply">
+      <div class="wrap">
+        <div class="apply">
+          <h2><span class="kicker">How to apply</span>Send us a complete application</h2>
+          <p style="margin: 0; color: #dce9f6;">Email the following three documents to:</p>
+          <p style="margin: 6px 0 0;">
+            <a class="email apply-mail" href="mailto:office.ibrs@xcit.tum.de">office.ibrs@xcit.tum.de</a>
+          </p>
+          <ol class="steps">
+            <li><strong>Your CV</strong></li>
+            <li><strong>At least one reference letter</strong></li>
+            <li><strong>A research statement</strong><span>On one of the research topics listed above.</span></li>
+          </ol>
+          <div class="zip-note">
+            <strong>Put all three documents into a single ZIP file named <code>Surname_N.zip</code></strong>,
+            using your full surname and the initial of your first name.
+            <span>Example: Maria Rossi → <code>Rossi_M.zip</code></span>
+          </div>
+          <p class="warning"><strong>Incomplete applications will not be considered.</strong></p>
+          <p style="margin: 0;">
+            Applications received by <strong>30 November 2026</strong> will be given priority.
+          </p>
+          <div class="cta-row" style="margin-top: 26px;">
+            <a class="btn btn-primary apply-mail" href="mailto:office.ibrs@xcit.tum.de">Apply by email</a>
+            <a class="btn btn-ghost" id="apply-outlook" href="https://outlook.office.com/mail/deeplink/compose" target="_blank" rel="noopener">Outlook web</a>
+            <a class="btn btn-ghost" id="apply-gmail" href="https://mail.google.com/mail/" target="_blank" rel="noopener">Gmail</a>
+            <button type="button" class="btn btn-ghost" id="copy-email">Copy address</button>
+          </div>
+          <p class="mail-hint">
+            “Apply by email” opens your default mail app (e.g. Outlook) with the recipient, subject and a
+            template already filled in. If nothing opens, use Outlook web or Gmail. Remember to attach your ZIP file.
+          </p>
+        </div>
+        <p style="color: var(--text-muted); font-size: 15px; margin-top: 22px;">
+          TUM is an equal opportunity employer. We explicitly encourage applications from women.
+          Applicants with disabilities will be given preference in case of equal qualifications.
+        </p>
+      </div>
+    </section>
+
+    <section id="more">
+      <div class="wrap">
+        <h2><span class="kicker">Learn more</span>Background</h2>
+        <div class="links">
+          <a class="link-card" href="https://youtu.be/kydEYc0rk9Q" target="_blank" rel="noopener">
+            <div class="src">Video</div>
+            <div class="ttl">TUM RoboGym powered by NEURA</div>
+          </a>
+          <a class="link-card" href="https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/tum-eroeffnet-convergence-center-und-tum-robogym-powered-by-neura" target="_blank" rel="noopener">
+            <div class="src">TUM press release</div>
+            <div class="ttl">TUM opens Convergence Center and TUM RoboGym powered by NEURA</div>
+          </a>
+          <a class="link-card" href="https://www.tum.de/aktuelles/alle-meldungen/pressemitteilungen/details/roboter-schlauer-machen" target="_blank" rel="noopener">
+            <div class="src">TUM press release</div>
+            <div class="ttl">Making robots smarter</div>
+          </a>
+          <a class="link-card" href="https://www.mirmi.tum.de/mirmi/startseite/" target="_blank" rel="noopener">
+            <div class="src">Institute</div>
+            <div class="ttl">Munich Institute of Robotics and Machine Intelligence (MIRMI)</div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span>Intelligent Bio-Robotic Systems group · TUM MIRMI · Prof. Lorenzo Masia</span>
+      <span>Contact: <a href="mailto:office.ibrs@xcit.tum.de">office.ibrs@xcit.tum.de</a></span>
+    </div>
+  </footer>
+
+  <script>
+    // Pre-fill the application email (subject + body template).
+    (function () {
+      var to = "office.ibrs@xcit.tum.de";
+      var subject = "Application – Postdoc in Physical AI (TUM RoboGym) – Surname_N";
+      var body = [
+        "Dear Prof. Masia, dear IBRS team,",
+        "",
+        "I would like to apply for one of the postdoctoral positions in Physical AI at the TUM RoboGym powered by NEURA.",
+        "",
+        "Name: ",
+        "Current position / affiliation: ",
+        "PhD (field, institution, year): ",
+        "Research topic of my statement: [Learning from human demonstration / Robot foundation models / Dexterous manipulation and humanoid control / Reinforcement learning and sim-to-real / Safe Physical AI for human-robot interaction]",
+        "",
+        "Attached is a single ZIP file named Surname_N.zip (full surname + first-name initial, e.g. Rossi_M.zip) containing:",
+        "  1. CV",
+        "  2. Reference letter(s) (at least one)",
+        "  3. Research statement",
+        "",
+        "Kind regards,",
+        ""
+      ].join("\r\n");
+      var href = "mailto:" + to +
+        "?subject=" + encodeURIComponent(subject) +
+        "&body=" + encodeURIComponent(body);
+      document.querySelectorAll(".apply-mail").forEach(function (a) {
+        a.href = href;
+        // Navigate the top window so the OS hands mailto: to the default mail app.
+        a.addEventListener("click", function (e) {
+          e.preventDefault();
+          window.location.href = href;
+        });
+      });
+
+      var q = "to=" + encodeURIComponent(to) +
+        "&subject=" + encodeURIComponent(subject) +
+        "&body=" + encodeURIComponent(body);
+      document.getElementById("apply-outlook").href =
+        "https://outlook.office.com/mail/deeplink/compose?" + q;
+      document.getElementById("apply-gmail").href =
+        "https://mail.google.com/mail/?view=cm&fs=1&to=" + encodeURIComponent(to) +
+        "&su=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+
+      var copyBtn = document.getElementById("copy-email");
+      copyBtn.addEventListener("click", function () {
+        var done = function () {
+          copyBtn.textContent = "Copied!";
+          setTimeout(function () { copyBtn.textContent = "Copy address"; }, 2000);
+        };
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(to).then(done, function () { window.prompt("Email address:", to); });
+        } else {
+          window.prompt("Email address:", to);
+        }
+      });
+    })();
+  </script>
+
+</body>
+</html>
